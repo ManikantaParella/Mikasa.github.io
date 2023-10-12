@@ -143,8 +143,9 @@ margin-right: 10px;}
 position:absolute;
 right: 60;
 }
-.horizontal_line{border: 0.5px solid #dfdfdf;
-    
+.horizontal_line{border: 0;
+    border-top: 0.5px solid #dfdfdf;
+  margin-bottom: 0;  
 margin-top: 0;}
 .logo ul{display: flex;
 list-style-type: none;
