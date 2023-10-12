@@ -29,11 +29,16 @@ margin-left: 6px;}
 color:white;
     margin-bottom: 18px;
 margin-left: 18px;}
+hr{height: 0.05px;}
 hr.line {
     border: 0.5px solid #51504e;
-  
+    /*height: 0.05px;
+    border-top-style:  solid;
+    border-top-color:#51504e;*/
+    border-bottom-color: transparent;
     margin:0px 8px 0px 8px;
   }
+
   .col2_border{border: 1px solid #504f4d;
 margin: 5px 5px 0px 5px;
 padding: 8px 8px 5px 8px;
@@ -139,6 +144,7 @@ position:absolute;
 right: 60;
 }
 .horizontal_line{border: 0.5px solid #dfdfdf;
+    
 margin-top: 0;}
 .logo ul{display: flex;
 list-style-type: none;
