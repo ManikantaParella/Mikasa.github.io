@@ -1,23 +1,43 @@
-.row{display: flex;}
+body{background-image: url(./background.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+/*background: linear-gradient(to top, #2f2e2c 0%,#474644 30%,#afadae 60%, #ffffff 60%,#ffffff 100%);*/
+background-image: linear-gradient(to top,#474644,#474644, #ffffff,#ffffff);
+}
+html,body{margin: 0;
+    
+}
+.mikasa_options_innerborder ul,.shipping,.logo,footer{width: 975px;margin: auto;}
+.row,.promo{width: 955px;
+margin: auto;}
+.row{display: flex;
+    /*width: 950px;
+    margin: auto;*/
+    border: 0px solid;
+   /* background: linear-gradient(to top, #ffffff 0%,#ffffff 30%, #aaa9a9 60%,#eaeaea 100%);*/
+    padding: 8px;
+    background-color: white;
+}
 .column2{border: 0px solid;
 line-height: 21px;
     margin: 0px;
 background-color:#333230;
 font-family:calibri narrow;
-margin-left: 5px;}
-#dressYourTable{font-size: xx-large;
+margin-left: 6px;}
+#dressYourTable{font-size: 30px;
 color:white;
     margin-bottom: 18px;
 margin-left: 18px;}
 hr.line {
     border: 0.5px solid #51504e;
   
-    margin:0px 20px 0px 20px;
+    margin:0px 8px 0px 8px;
   }
   .col2_border{border: 1px solid #504f4d;
 margin: 5px 5px 0px 5px;
 padding: 8px 8px 5px 8px;
-width: 258px;
+
 }
 p:not(#descriptiion,#dressYourTable,.ex1,hr){margin-top: 5px;
  margin-bottom: 5px;
@@ -28,6 +48,7 @@ margin-left: 20px;}
 margin-right: 20px;
 color: #999798;
 padding-bottom: 10px;
+font-size: 14px;
 }
 p.ex1{margin-top: 12px;
 margin-left: 20px;
@@ -35,3 +56,251 @@ margin-bottom: 12px;
 font-size: small;
 }
 p.ex1 a{color:#908e8f;}
+.mikasa_options_innerborder ul{list-style-type: none;
+display: flex;
+padding-left: 24px;
+
+/*margin: auto;
+width: 975px;*/
+
+}
+.mikasa_options{border-top: 1px solid #d8d6d7;
+border-bottom: 1px solid #d8d6d7;
+
+}
+.mikasa_options ul li.options{
+    padding-left: 18px;
+padding-right: 18px;
+padding-top: 6px;
+border-right: 1px solid;
+border-color: #e6e4e5;
+padding-bottom: 6px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+font-size: small;}
+.mikasa_options_innerborder{border-top: 1px solid #d8d6d7;
+    border-bottom: 1px solid #d8d6d7;
+margin: 2px 2px 2px 0px;
+background-color: #d8d6d7;
+
+}
+
+.Dining{padding-right: 18px;
+    border-right: 1px solid #e6e4e5;
+padding-top: 6px;
+padding-bottom: 6px;
+font-size: small;
+padding-left: 0px;}
+#search {
+    font-size:x-small;
+    padding:2px 50px 2px 5px;
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-left: 20px;
+    border-top: 2px solid #868485;
+    border-left: 2px solid #868485;
+    border-right: 1px solid #e0dedf;
+    border-bottom: 1px solid #e0dedf;
+   }
+#go{margin-left: 0px;
+padding: 2px 4px 2px 4px;
+font-size: x-small;
+border-radius: 5px;
+margin-top: 6px;
+border: 1px solid #adabac;
+background-color: white;
+}
+.shipping{padding: 20px 0px 10px ;
+position: relative;
+/*width: 975px;
+margin: auto;*/
+font-size: 14px;
+color:#7f8f9f;
+}
+.shipping ul{display: flex;
+   padding-left: 12px; 
+   margin: 0;
+  
+  
+}
+.shipping ul li:not(.bridal_class):not(.registry){
+list-style-type: circle;
+padding-right: 20px;
+margin-right: 10px;}
+#orders{list-style-type: none;
+}
+.bridal_class{list-style-type: none;
+    position: absolute;
+    right: 150;
+    top: 6;
+}
+.registry{list-style-type: none;
+position:absolute;
+right: 45;
+}
+.horizontal_line{border: 0.5px solid #dfdfdf;
+margin-top: 0;}
+.logo ul{display: flex;
+list-style-type: none;
+padding-left: 0;
+margin: 0;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.jeffery{padding: 20px 0px 10px;
+font-size: 12;
+margin-top: 20px;
+color: #7e7e7e;
+}
+.item{padding: 20px 0px 10px;
+    margin-right: 10px;
+    font-size: 12;
+    margin-top: 20px;
+    color: #7e7e7e;}
+.jeffery::after{content: "|";
+padding-left: 10px;
+padding-right: 10px;
+color: #e3e3e3;
+
+}
+.icon{padding: 18px 6px 0px;
+margin-top: 20px;}
+.customer{padding: 20px 0px 10px;
+    margin-top: 20px;
+    font-size: small;
+    color:#7e7e7e;
+}
+.logo_img{
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-right: 16em;
+    margin-left: 0px;
+    mix-blend-mode: darken;
+}
+/*.logo{width: 975px;
+margin: auto;}*/
+#options_offers{margin-right: 20px;}
+.promo ul{
+list-style-type: none;
+
+}
+.promo ul li{
+    margin-bottom: 20px;
+}
+.promo_glass{background-color: white;
+padding-right: 50px;
+
+}
+.promo_plates{background-color: white;
+    padding-top: 35px;}
+.promo_album{background-color: white;
+        padding-left: 125px;
+    padding-top: 6px;}
+    .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+      color: white;}
+.img_container{
+color:#2a2a2a;
+position: relative;
+border-right: 1px solid;
+border-image: 
+    linear-gradient(to bottom,
+      white 0%,white 8%,#e2e2e2 8%,#e2e2e2 92%,white 92%,white 100%
+    )1 }
+.overlay{position: absolute;
+top: 18;
+left: 20;
+right: 20;
+    font-size: 17px;
+    align-items: center;
+    color: #323232;
+ }
+ .promo{border: 1px solid ;
+    background-color: black;
+    display: flex;
+padding: 8px;
+/*width: 955px;
+margin: auto;*/}
+.about_mikasa{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 12px;}
+.about_mikasa ul{display: flex;
+    position: relative;
+padding-left: 0;
+margin-top: 10px;
+
+}
+
+.about_mikasa ul li:not(.sign_up):not(.about_mikasa ul li span){
+list-style-type: none;
+color: #a9a7a8;
+margin-right: 5px;
+}
+ .policy::after{content: "|";
+padding-left: 5px;
+text-decoration: none;
+}
+.policy a{color: #a9a7a8;}
+#privacy_policy{text-decoration: underline;}
+/*footer{width: 975px;
+margin: auto;
+}*/
+.sign_up{position: absolute;
+top: 0;
+right: 0;
+text-decoration: none;
+list-style-type: none;
+color: #a9a7a8;
+font-size: small;}
+.email ul{display: flex;
+padding-left: 0px;
+list-style-type: none;
+text-decoration: none;
+position: relative;
+
+margin-bottom: 8px;
+margin-top: 10px;
+}
+.email ul li span{text-decoration: underline;}
+.email ul li{margin-right: 20px;
+font-size: small;
+color: #a9a7a8;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.email_inner{margin-left: 20px;
+position: absolute;
+border-color: white;
+right: 13%;
+font-size: 12px;
+padding: 2px 58px 2px 5px;
+color: black;
+border-bottom: 1px;
+border-right: 1px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: #ffffff;}
+.email_inner2{position: absolute;
+    top: 2;
+right: 6.5%;
+border-radius: 5px;
+font-size:12px;
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 8px;
+padding-right: 8px;
+border-color: #c7c7c7;
+color:black;
+border: 0px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: #ffffff;}
+.footer_end{font-size: small;
+    color: #a9a7a8;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#overlay_first_one{top:40; left: 21; font-size: 12;color: #909090;}
+#overlay_middle_one{top: 45%; left: 60%; font-size: 14;color:#7f8f9f;}
+#overlay_first_two{top: 40; left: 21; font-size: 12;color: #909090;}
+#overlay_middle_two{top: 40%; left: 55%; font-size: 14;color:#7f8f9f;}
+#overlay_first_three{top: 40%; left: 20;right: 150; font-size: 12;color: #909090;}
+#overlay_middle_three{top: 70%; left: 20; font-size: 14;color:#7f8f9f;}
+
+
+ 
+
