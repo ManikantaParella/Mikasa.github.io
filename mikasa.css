@@ -2,7 +2,6 @@ body{background-image: url(./background.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
-/*background: linear-gradient(to top, #2f2e2c 0%,#474644 30%,#afadae 60%, #ffffff 60%,#ffffff 100%);*/
 background: linear-gradient(to top ,#474644 ,#a6a4a5,#ffffff,#ffffff);
 }
 html,body{margin: 0;
@@ -12,10 +11,7 @@ html,body{margin: 0;
 .row,.promo{width: 955px;
 margin: auto;}
 .row{display: flex;
-    /*width: 950px;
-    margin: auto;*/
     border: 0px solid;
-   /* background: linear-gradient(to top, #ffffff 0%,#ffffff 30%, #aaa9a9 60%,#eaeaea 100%);*/
     padding: 8px;
     background-color: white;
 }
@@ -32,9 +28,6 @@ margin-left: 18px;}
 hr{height: 0.05px;}
 hr.line {
     border: 0.5px solid #51504e;
-    /*height: 0.05px;
-    border-top-style:  solid;
-    border-top-color:#51504e;*/
     border-bottom-color: transparent;
     margin:0px 8px 0px 8px;
   }
@@ -64,10 +57,6 @@ p.ex1 a{color:#908e8f;}
 .mikasa_options_innerborder ul{list-style-type: none;
 display: flex;
 padding-left: 24px;
-
-/*margin: auto;
-width: 975px;*/
-
 }
 .mikasa_options{border-top: 1px solid #d8d6d7;
 border-bottom: 1px solid #d8d6d7;
@@ -117,8 +106,6 @@ background-color: white;
 }
 .shipping{padding: 20px 0px 10px ;
 position: relative;
-/*width: 975px;
-margin: auto;*/
 font-size: 14px;
 color:#7f8f9f;
 }
@@ -148,6 +135,8 @@ right: 60;
   margin-bottom: 0;  
 margin-top: 0;}
 .logo ul{display: flex;
+    justify-content: flex-end;
+    position: relative;
 list-style-type: none;
 padding-left: 0;
 margin: 0;
@@ -176,16 +165,16 @@ margin-top: 20px;}
     margin-top: 20px;
     font-size: small;
     color:#7e7e7e;
+    margin-right: 20px;
 }
 .logo_img{
     padding-right: 10px;
     padding-top: 20px;
-    margin-right: 16em;
+    position: absolute;
+    left: 0;
     margin-left: 0px;
     mix-blend-mode: darken;
 }
-/*.logo{width: 975px;
-margin: auto;}*/
 #options_offers{margin-right: 28px;}
 .promo ul{
 list-style-type: none;
@@ -228,8 +217,7 @@ right: 20;
     background-color: black;
     display: flex;
 padding: 8px;
-/*width: 955px;
-margin: auto;*/}
+}
 .about_mikasa{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 12px;}
 .about_mikasa ul{display: flex;
     position: relative;
@@ -249,9 +237,6 @@ text-decoration: none;
 }
 .policy a{color: #a9a7a8;}
 #privacy_policy{text-decoration: underline;}
-/*footer{width: 975px;
-margin: auto;
-}*/
 .sign_up{position: absolute;
 top: 0;
 right: 0;
